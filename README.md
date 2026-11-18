@@ -2,7 +2,7 @@
 
 A responsive, timer-based quiz application built with **HTML, CSS and vanilla JavaScript**. Players answer multiple-choice questions against a 15-second countdown, get instant feedback on every answer, and see a final score at the end.
 
-**Live Demo:** https://zain123932.github.io/quiz-app/
+**Live Demo:** https://zain123932.github.io/Quiz-App-main/
 
 ---
 
