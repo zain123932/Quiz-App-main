@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1 class="title">Quiz App</h1>
+
+<!-- START SCREEN -->
+
+<div id="startScreen" class="start-screen">
+
+<h2>Welcome to the Quiz</h2>
+
+<p>Total Questions: <span id="totalQ"></span></p>
+<p>Time per Question: 15 seconds</p>
+
+<button id="startBtn">Start Quiz</button>
+
+</div>
+
+<!-- QUIZ BOX -->
+
+<div class="box hidden">
+
+<div class="progress-bar">
+<div id="progress"></div>
+</div>
+
+<div class="top-bar">
+<span id="counter"></span>
+<span id="timer">⏱ 15s</span>
+</div>
+
+<div id="question"></div>
+
+<div id="options" class="options"></div>
+
+<div id="answer-info"></div>
+
+<button id="nextBtn">Next</button>
+
+</div>
+
+<!-- RESULT -->
+
+<div id="result" class="result-box hidden">
+
+<div class="circle">
+<span id="scorePercent">0%</span>
+</div>
+
+<h2>Quiz Result</h2>
+
+<p id="correct"></p>
+<p id="wrong"></p>
+
+<button onclick="location.reload()" style="background-color: #f2eff5; color: rgb(8, 8, 8); padding: 10px 20px; border: none; border-radius: 6px; cursor: pointer; font-size: 18px; box-shadow: 0 0 10px rgba(243, 241, 241, 0.3);">Restart Quiz</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
